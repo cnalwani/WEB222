@@ -1,0 +1,50 @@
+
+
+
+
+
+header {
+
+    font-style:oblique;
+    background-color:#ADD8E6;
+    padding:10px;
+    width: 140%;
+    border: 10px;
+    border-bottom:1px solid #cccccc;
+    margin-bottom:30px;
+  }
+
+nav {
+    display: block;
+    width: 30%;
+    height: 260px;
+    margin : 10px;
+    text-align: left;
+    background-color:#FFB6C1;
+    padding: 5px 14px;
+  
+}
+
+body {
+
+    width:70%; 
+    font-size:14px; 
+    text-align: center;
+    background-color: #616D7E; 
+    margin-top: 10px;
+
+}
+
+.main-container .main {
+    width:70%;
+    float:right;
+}
+
+ footer {
+
+    width: 150%;
+    margin-top: 15px;
+    color:#ADD8E6;    
+    background-color:darkcyan;
+    padding: 1px;
+} 

@@ -1,0 +1,33 @@
+/********************************************************************************* 
+*
+* WEB222 – Assignment #4a
+*
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: __CHIRAG ALWANI____ Student ID: _153444179_____ Date: _2018/7/16____ 
+* 
+********************************************************************************/
+
+
+
+body {background-color: #616D7E; color:yellowgreen; }
+
+nav {background-color:darkcyan;}
+
+footer {background-color:darkcyan;}
+
+header {font-style:oblique;background-color:#ADD8E6;}
+
+h1 {font-size: 48px;font-family:'Tangerine',serif;text-shadow: 2px 2px #616D7E;text-align: left;}
+
+div.main-table-container{height:750px; overflow:scroll; background-color:#808080; table-layout: auto;}
+
+th {background-color: #C0C0C0; text-align: left; color: #413839;  padding-top: 5px; padding-bottom:5px; font-style: italic; border:2px solid brown;}
+
+td { text-align: left; color: darkslateblue;  padding-top: 5px; padding-bottom:5px;font-style: initial;font-size:15px; border: 2px solid black;}
+
+span {font-family: fantasy; font-style: oblique; font-weight : bold;}
+

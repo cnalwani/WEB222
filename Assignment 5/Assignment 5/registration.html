@@ -1,0 +1,94 @@
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Alwani</title>
+        <script src="registration.js"></script>
+        <link rel="stylesheet" href="normalize1.css" rel="stylesheet" type="text/css" />
+    </head>
+        <body>
+            <header>
+                <div class="center"> </div>
+            </header>
+            <nav>
+                    <div class="center">
+                        <ul>
+                            <a href="index.html">RETURN TO HOME PAGE</a>
+                        </ul>
+                    </div>
+            </nav>
+            <div id="form">
+            <form action="https://httpbin.org/post" method="Post" name="signup" onsubmit="return formValidation();">
+                
+                    First name: 
+                    <input type="text" name="firstname" id="fname" required><br/><br/>
+                
+                    Last Name:
+                    <input type="text" name="lastname" id="lname" required><br/><br/>
+                
+                    Shipping Address:
+                    <input type="text" name="address" id="address" required><br/><br/>
+                
+                    unit#:
+                    <input type="number" name="address" id="unit" required><br/><br/>
+
+                    street:
+                    <input type="text" name="street" id="stname" required><br/><br/>
+
+                    city:
+                    <input type="text" name="city" id="city" required><br/><br/>
+                    
+                    province:
+
+                   <select name="province" id="province">
+                        <option value="Ontario" Selected> Ontario</option>
+                        <option value="Nova Scotia">Nova Scotia</option>
+                        <option value="Ontario">Newfoundland and Labrador</option> 
+                        <option value="British Columbia">British Columbia</option>
+                        <option value="Manitoba">Manitoba</option>
+                        <option value="New Brunswick">New Brunswick</option>
+                        <option value="Saskatchewan">Saskatchewan</option> 
+                        <option value="Quebec">Quebec</option>
+                        <option value="Alberta">Alberta</option>
+
+                    </select>   <br/><br/>
+
+                    postal code:            
+                    <input type="text" name="postalcode" placeholder="###-###" id="postal" required pattern="^[A-Za-z]\d[A-Za-z][-]?\d[A-Za-z]\d$"><br/><br/>
+                
+                    Phone#:
+                    <input type="tel" name="phone" id="phnumber" required placeholder="###-###-####" pattern="^\d{3}-\d{3}-\d{4}$"><br/><br/>
+            
+                    Email:
+                    <input type="email" name="email" id="email" required><br/><br/>
+                    
+                    Username:
+                    <input type="text" name="username" id="usname" required><br/><br/>
+                
+                    Password:
+                    <input type="password" name="password" id="passw" required><br/><br/>
+                
+                    Confirm Password:
+                    <input type="password" name="confirmpassword" id="cmpass" required><br/><br/>
+
+                    
+                    <input type="hidden" name="lastName" id="lastName" value="ALWANI" /> 
+                    <input type="hidden" name="studentId" id="studentId" value="153444179" /> 
+
+
+                    <div id="errors"></div>
+
+                    <input type="submit" value="Submit"/>
+                    <input type="reset" value="Clear"/>
+              
+        </form>
+    </div>
+        <footer>
+             <div class="center">
+                &copy; 2018 CHIRAG ALWANI
+             </div>
+        </footer>
+</body>
+</html>
